@@ -15,3 +15,4 @@ while (toSize != 'exit'):
     print(list( (homeFolder / toSize).glob('*.txt')))
     print("What folder in the user directory do you want to get the size of? ")
     toSize = input()
+    print()
